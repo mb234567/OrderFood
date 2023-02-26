@@ -1,0 +1,40 @@
+body {
+  height: 100%;
+  font-family: sans-serif; 
+}  
+#Banner {
+  font-size: 25px; 
+  font-weight: 800; 
+  background-color: blue;  
+  border-radius: 20px; 
+  opacity: .5;
+  color: white; 
+  text-decoration: underline;
+}
+.menu-item a { 
+  display: block;
+  font-size: 20px; 
+  padding: 8px 30px; 
+  margin: 12px 0 ;
+  font-weight: 400; 
+  color: white;
+} 
+
+.menu-item a:hover {
+  background-color: white;  
+  color: black;
+
+}
+
+.Container { 
+  height: 100%;
+  display: grid; 
+  grid-template-columns: 20vw auto 18vw; 
+  overflow: hidden;  
+  gap: 2rem;
+  } 
+
+/* menu design */ 
+.Menu {
+  background: blue;
+}
